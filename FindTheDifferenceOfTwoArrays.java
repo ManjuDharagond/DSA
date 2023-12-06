@@ -1,5 +1,4 @@
 public class FindTheDifferenceOfTwoArrays {
-    class Solution {
         public List<List<Integer>> findDifference(int[] num1, int[] num2) {
             HashSet<Integer>set1 = new HashSet<>();
             HashSet<Integer>set2 = new HashSet<>();
@@ -27,6 +26,6 @@ public class FindTheDifferenceOfTwoArrays {
             list.add(list1);
             list.add(list2);
             return list;
-        }
+
     }
 }
