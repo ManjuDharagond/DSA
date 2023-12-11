@@ -1,3 +1,4 @@
+import java.util.*;
 public class SuccessfulPairsOfSpellAndPotions {class Solution {
     public int[] successfulPairs(int[] spells, int[] potions, long success) {
         int n = spells.length;
