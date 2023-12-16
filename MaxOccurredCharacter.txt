@@ -1,0 +1,19 @@
+const maxChar = (str) =>{
+    let obj = {};
+
+    for (const char of str) {
+        if(!obj[char]?obj[char]=1:obj[char]++);
+    }
+
+    let maxCount = 0;
+    let maxOccurredChar = '';
+    for (let char in obj) {
+        if(obj[char] > maxCount){
+            maxCount = obj[char];
+            maxOccurredChar = char;
+        }
+    }
+    console.log(`The character ${maxOccurredChar} has appeared ${maxCount} times`);
+}
+
+maxChar("heLLLoo$$3p");
