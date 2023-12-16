@@ -1,3 +1,5 @@
+//Solution for a problem max occurred character in a string
+
 const maxChar = (str) =>{
     let obj = {};
 
